@@ -98,6 +98,8 @@ import com.android.settings.inputmethod.SpellCheckersSettings;
 import com.android.settings.inputmethod.UserDictionaryList;
 import com.android.settings.localepicker.LocaleListEditor;
 import com.android.settings.location.LocationSettings;
+import com.android.settings.mdesktop.MDesktopSettings;
+import com.android.settings.mdesktop.MDesktopTweaks;
 import com.android.settings.nfc.AndroidBeam;
 import com.android.settings.nfc.PaymentSettings;
 import com.android.settings.notification.AppNotificationSettings;
@@ -329,7 +331,6 @@ public class SettingsActivity extends SettingsDrawerActivity
             BatterySaverSettings.class.getName(),
             AppNotificationSettings.class.getName(),
             OtherSoundSettings.class.getName(),
-<<<<<<< HEAD
             ApnSettings.class.getName(),
             ApnEditor.class.getName(),
             WifiCallingSettings.class.getName(),
@@ -358,6 +359,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             MasterClear.class.getName(),
             NightDisplaySettings.class.getName(),
             MDesktopSettings.class.getName(),
+            MDesktopTweaks.class.getName(),
     };
 
 
